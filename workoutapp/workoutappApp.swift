@@ -2,9 +2,10 @@
 //  workoutappApp.swift
 //  workoutapp
 //
-//  Created by Tanveer Baidwan on 20/04/2026.
+//  Created by Codex on 20/04/2026.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,11 @@ struct workoutappApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [
+            WorkoutSession.self,
+            SetLog.self,
+            MealLog.self,
+            SessionNote.self
+        ])
     }
 }
