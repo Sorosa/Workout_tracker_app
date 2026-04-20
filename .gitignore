@@ -1,0 +1,13 @@
+.DS_Store
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+
+# Xcode workspace data
+*.xccheckout
+*.xcscmblueprint
+
+# Build products
+build/
+DerivedData/
